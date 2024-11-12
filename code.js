@@ -3,7 +3,7 @@ function flip(array, n) {
     for (let i = 0; i < Math.floor(n / 2); i++) {
         temp = array[i];
         array[i] = array[n-1-i];
-        array[n-1] = temp;
+        array[n-1-i] = temp;
     }
     return array;
 }
