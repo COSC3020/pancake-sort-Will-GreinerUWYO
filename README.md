@@ -30,7 +30,7 @@ number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
 The main loop of my code runs once for each element of the list, as n is set to equal the length of the list. For each element of the list, flip is called twice. Once to get the biggest pancake to the top of the stack, and then once more to get that pancake on top of the already sorted list.
-So the runtime ($\Theta$) for this algorithm is ($\Theta$)$(n^2)$.
+So the runtime ($\Theta$) for this algorithm is ($\Theta$) $(n^2)$.
 
 ## Sources and Plagarism Statement
 
