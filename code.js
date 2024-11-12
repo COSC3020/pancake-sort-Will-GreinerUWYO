@@ -12,21 +12,18 @@ function flip(array, n) {
 function pancakeSort(array) {
     var n = array.length;
     while (n > 1) {
-        if (array[0] > array[n-1]) {
-            let maxValue = 0;
-            let maxIndex = 0;
-            for(let i = 0; i < n; i++){
-                if (array[i] > maxValue) {
-                    maxValue = array[i];
-                    maxIndex = i;
-                }
+        let maxValue = 0;
+        let maxIndex = 0;
+        for (let i = 0; i < n; i++){
+            if (array[i] > maxValue) {
+                maxValue = array[i];
+                maxIndex = i;
             }
-            flip(array,maxIndex);
-            flip(array,n);
         }
-        else {
-            n = n - 1;
-        }
+        flip(array,maxIndex);
+        flip(array,n);
+        n = n - 1;
     }
+    
     return array;
 }
