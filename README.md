@@ -34,6 +34,9 @@ So the runtime ($\Theta$) for this algorithm is ($\Theta$) $(n^2)$.
 
 ## Sources and Plagarism Statement
 
-I used [GeeksforGeeks](https://www.geeksforgeeks.org/pancake-sorting/#) to help explain how the sort worked, specifically how to get the max value out. I then used [Sort Visualizer] (https://www.sortvisualizer.com/pancakesort/) to be able to visualize the sort. No other sources or repositories were referenced. I did not reference the GeeksforGeeks code.
+I used [GeeksforGeeks](https://www.geeksforgeeks.org/pancake-sorting/#) to help explain how the sort worked, specifically how to get the max value out. I then used [Sort Visualizer] (https://www.sortvisualizer.com/pancakesort/) to be able to visualize the sort. No other sources or repositories were referenced. I did not reference the GeeksforGeeks code, instead I took these three lines to be the foundation of my code.
+Find index of the maximum element
+Call flip(arr, mi)
+Call flip(arr, curr_size – 1)
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
