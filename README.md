@@ -29,3 +29,20 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+The main loop of my code runs once for each element of the list, as n is set to equal the length of the list. For each element of the list, flip is called twice. Once to get the biggest pancake to the top of the stack, and then once more to get that pancake on top of the already sorted list.
+
+The comparisons always follow the pattern of the worst case scenario for quicksort, taking one element off the end of the list and going back through the rest of it. The runtime of the compares is ($\Theta$) $(n^2)$
+
+And the runtime of the flips is ($\Theta$) $(2n)$.
+
+## Sources and Plagarism Statement
+
+I used [GeeksforGeeks](https://www.geeksforgeeks.org/pancake-sorting/#) to help explain how the sort worked, specifically how to get the max value out. I then used [Sort Visualizer] (https://www.sortvisualizer.com/pancakesort/) to be able to visualize the sort. No other sources or repositories were referenced. I did not reference the GeeksforGeeks code, instead I took these three lines to be the guidelines for how I structured the code.
+
+````
+Find index of the maximum element
+Call flip(arr, mi)
+Call flip(arr, curr_size – 1)
+````
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
