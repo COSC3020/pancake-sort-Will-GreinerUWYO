@@ -31,7 +31,9 @@ answer to this markdown file.
 
 The main loop of my code runs once for each element of the list, as n is set to equal the length of the list. For each element of the list, flip is called twice. Once to get the biggest pancake to the top of the stack, and then once more to get that pancake on top of the already sorted list.
 
-So the runtime ($\Theta$) for this algorithm is ($\Theta$) $(2n)$.
+The comparisons always follow the pattern of the worst case scenario for quicksort, taking one element off the end of the list and going back through the rest of it. The runtime of the compares is ($\Theta$) $(n^2)$
+
+And the runtime of the flips is ($\Theta$) $(2n)$.
 
 ## Sources and Plagarism Statement
 
